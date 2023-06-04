@@ -1,0 +1,135 @@
+ body{
+    background-color: rgb(220, 220, 220);
+}
+
+h1{
+    color: rgb(27, 164, 255);
+    font-style: oblique;
+    font-size: 2.5em;
+}
+
+.mail{
+    color: rgb(0, 0, 0);
+}
+
+.lien{
+    text-decoration: none;
+    color: rgb(0, 0, 250);
+    font-size: 40px;
+    font-style: italic;
+}
+
+.gauche{
+    margin-left: 0px;
+}
+.gauche1{
+    margin-left: 600px;
+}
+
+
+.lien:hover{
+    
+    text-decoration: underline;
+    color: rgb(0, 120, 0);
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 35px;
+    list-style-type: none;
+}
+
+nav ul{
+    text-align: center;
+    background-color: rgb(212, 218, 164);
+}
+
+
+/* Configuration du footer */
+div li{
+    
+    list-style-type: none;
+    margin-right: 7px;
+    text-align: justify;
+    
+}
+
+.lien2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-style: italic;  
+}
+
+.lien2:hover{
+    color: rgb(54, 82, 241);
+}
+
+div{
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.non{
+    display: block;
+    margin-right: 0px;
+}
+
+.Admin{
+     color: rgb(54, 82, 241);
+     font-style: normal;
+     text-decoration: none;
+}
+
+/*Effets lorsqu'on survole le lien Admin*/
+.Admin:hover{
+    text-decoration: underline;
+    color: rgb(0, 12.5, 60);
+}
+
+
+footer{
+    background-color: black;
+}
+
+/* End of settings */
+
+/*L'image à coté de mon texte*/
+#image1{
+    float: right;/*On fait flotter l'image à droite du texte*/
+    width: 350px;
+    height: 270px;
+}
+
+section{
+    font-size: 1.5em;/*Tout ce qui se trouve à l'intérieur de ma section a une taille de 1.5em*/
+}
+
+.numérotation{
+    
+    list-style-type: circle;/*Change le style du liste(cercle)*/
+    display: inline-block;/*Pour pouvoir le redimensionner comme un bloc*/
+    margin-left: 50px;
+
+}
+
+
+
+/*Pour centrer mon paragraphe*/
+p{
+    width: 1200px; /* On a indiqué une largeur (OBLIGATOIRE) */
+    margin: auto; /* On peut donc demandé à ce que le bloc soit centré avec auto */
+    text-align: justify;
+}
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+p
+{
+color: #dd9f9f;
+font-size: 0.7em;
+text-align: left;
+}
+}  

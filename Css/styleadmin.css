@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+}
+th{
+    font-size: 50px;
+}
+td, td th{
+    font-size: 28px;
+}
+tr{
+    text-align: center;
+}
+
+#hidden{
+    visibility: hidden;
+}

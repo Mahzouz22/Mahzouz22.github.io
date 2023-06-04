@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(221, 191, 202);
+}
+table{
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+.colonne1{
+    width: 25%;
+    height: 100%;
+    font-size: 2em;
+}
+tr{
+    width: 75%;
+}
+td{
+    border: 1px solid #000000;
+    width: 80%;
+}
+    
+#ligne_image{
+    height: 100px;
+    background-color: rgb(113, 111, 116);
+}
+#ligne_image1{
+    height: 100px;
+    border-radius: 50px  ;
+}
+#colonne2{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
