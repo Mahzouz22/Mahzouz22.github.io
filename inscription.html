@@ -18,17 +18,30 @@
                 <legend> Fomulaire d'Inscription</legend>
                 <p>
                 <div class="form-group">
-                    <input type="text" name="nom" placeholder="saisir votre nom" class="form-control bg-dark">
-                </div>
-                <div class="form-group"><input type="text" name="prenom" placeholder="saisir votre prénom" class="form-control bg-warning"></div>
-                <div class="form-group"><input type="color" name="couleur" class="form-control form-control-comprends bg-warning" value="#563d7c" title="Choose your color"></div>
-                <div class="form-group"><input type="tel" name="téléphone" class="form-control bg-danger" placeholder="Saisir votre numéro"></div>
+                    <input type="text" name="nom" placeholder="saisir votre nom" class="form-control p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 bg-dark">
+                </div><br>
+                <div class="form-group"><input type="text" name="prenom" placeholder="saisir votre prénom" class="form-control  bg-warning"></div><br>
+                <div class="form-group"><input type="color" name="couleur" class="form-control form-control-comprends bg-warning" value="#563d7c" title="Choose your color"></div><br>
+                <div class="form-group"><input type="tel" name="téléphone" class="form-control bg-danger" placeholder="Saisir votre numéro"></div><br>
                 <div class="form-group"><input type="text" name="age" id="18n" class="form-control bg-primary" placeholder="Saisir votre age"><label for="18n"></label></div>
-                <div class="form-group"><input type="email" name="email" id="18n" class="form-control bg-dark" placeholder="Saisir votre email"><label for="18n"></label></div>
+                <div class="form-group"><input type="email" name="email" id="18n" class="form-control text-light bg-info" placeholder="Saisir votre email"><label for="18n"></label></div>
                 <div class="form-group"><input type="password" name="pass" id="18n" class="bg-purple form-control is-valid" placeholder="Saisir votre mot de passe" required><label for="18n"></label></div>
-                <div class="form-check form-check-inline"><input type="radio" name="sexe" class="form-control"><label for="">Masculin</label></div>
-                <div class="form-check form-check-inline"><input type="radio" name="sexe" class="form-control"><label for="">Feminin</label></div>
-                <div class="form-check form-switch"><input type="checkbox" role="switch" class="form-check-input"></div><br>
+               
+               <div>
+                 <label for="">Sexe :&nbsp; </label>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Masculin
+                    </label>
+                </div>
+                <div class="form-check-inline">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Feminin
+                    </label>
+                </div>
+               </div><br>
 
                 <div class="form-group"><label for=""> Votre pays:</label>
                     <select name="pays" id="" class="form-select bg-red">
@@ -38,9 +51,9 @@
                         <option value="choix"> CONGO</option>
                         <option value="choix"> GHANA</option>
                     </select>
-                </div>
-                <div class="form-check form-check-inline"><input type="submit" value="ENVOYER" class="btn btn-primary"></div>
-                <div class=" form-check form-check-inline"><input type="submit" value="RETOUR" class="btn btn-primary bg-danger"></div>
+                </div><br>
+                <div class="form-check form-check-inline "><input class="btn btn-primary border-light rounded-pill" type="submit" value="ENVOYER"></div>
+                <div class=" form-check form-check-inline"><input class="btn btn-light border-warning rounded-pill" type="submit" value="RETOUR"></div>
                 </p>
 
             </fieldset>

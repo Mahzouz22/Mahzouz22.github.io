@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,28 +10,71 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div class="container text-center">
-        <h6 class="bg-primary border rounded-top">Veuillez vous connecter</h6>
-        <br>
-        <div class="row bg-primary rounded-pirle rounded">
-            <div class="col col-md-4"></div>
-            <div class="col col-md-4">
-                <form action="" method="POST">
-                    <div><label for="">Nom d'utilisateur:</label>
-                        <input type="text" name="nom" class="form-control">
-                    </div>
-
-                    <div>
-                        <label for="">Mot de passe:</label>
-                        <div><input type="password" name="pass" class="form-control"></div>
-                        <div class="form-check"><input type="checkbox" class="form-check-input"><label for="">Mot de passe oublié?</label></div>
-                        <div class="form-check form-check-inline"><input type="submit" value="ENVOYER" class="btn btn-dark form-control"></div>
-                        <div class=" form-check form-check-inline"><input type="submit" value="RETOUR" class="btn btn-primary bg-danger form-control"></div>
+<body class=" bg-black p-3 text-white">
+<div class="container">
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="propos.html">Omah Tech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">Admin</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Expand
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="CV pro.html">Curriculum</a></li>
+                            <hr class="dropdown-divider">
+                            <li><a class="dropdown-item" href="formation.html">Nos Formations</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
                 </form>
-                <div class="col col-md-4"></div>
             </div>
         </div>
+    </div>
+</nav><br><br><br>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <label for="inputPassword5" class="form-label">Password</label>
+    <input type="password" id="inputPassword5" class="form-control" aria-labelledby="passwordHelpBlock">
+    <div id="passwordHelpBlock" class="form-text text-white">
+        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special
+        characters, or emoji.
+    </div><br>
+    <div class="container-fluid" >
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Log in
+    </button> &nbsp;
+    <button type="button" class="btn btn-primary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+        Forgot password ?
+    </button>
+    </div>
+    </div>
 </body>
 
 </html>
